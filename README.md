@@ -6,5 +6,3 @@
 brew tap kennylwx/tap
 brew install schiba
 ```
-
-`
