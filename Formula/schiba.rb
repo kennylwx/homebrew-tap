@@ -11,10 +11,10 @@ class Schiba < Formula
 
   def install
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
-    bin.install_symlink Dir["\#{libexec}/bin/*"]
+    bin.install_symlink Dir["#{libexec}/bin/*"]
   end
 
   test do
-    assert_match version.to_s, shell_output("\#{bin}/schiba --version")
+    assert_match version.to_s, shell_output("#{bin}/schiba --version")
   end
 end
