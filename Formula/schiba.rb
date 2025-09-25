@@ -3,8 +3,8 @@ require "language/node"
 class Schiba < Formula
   desc "Extract database schema in a compact format for AI chat context"
   homepage "https://github.com/kennylwx/schiba"
-  url "https://registry.npmjs.org/schiba/-/schiba-0.3.0.tgz"
-  sha256 "f175bea912a5eb6528f6d6ee8d184572323e1dad525038902ad6bd7a36642c62"
+  url "https://registry.npmjs.org/schiba/-/schiba-0.3.1.tgz"
+  sha256 "eb24210294c2b66e8a83a44531c63f0170ab530babe6f3feb0cd866525201723"
   license "MIT"
 
   depends_on "node"
